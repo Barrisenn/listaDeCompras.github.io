@@ -1,0 +1,67 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #101011;
+  font-family: 'Raleway', sans-serif;
+}
+
+.app {
+  position: relative;
+}
+
+.container {
+  background-color: #a8bfb6;
+  position: absolute;
+  padding: 1em 2em;
+  
+  width: 400px;
+  
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  
+  top: 50vh;
+  transform: translateY(-50%);
+  
+  border-radius: 10px;
+
+  background-image: url("/listaDeCompras.jpg");
+  background-blend-mode: overlay;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  color: #2b2b2e;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+.remove {
+  border: none;
+  background-color: yellow;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#item-button {
+  cursor: pointer;
+  background-color: yellow;
+  border: none;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+input {
+  border: none;
+  padding: 0.5em;
+}
